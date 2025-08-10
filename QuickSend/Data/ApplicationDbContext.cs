@@ -14,6 +14,6 @@ namespace QuickSend.Data
         {
             base.OnModelCreating(builder);
         }
-
+        public DbSet<WalletTransactions> WalletTransactions { get; set; }
     }
 }
